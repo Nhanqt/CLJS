@@ -1,0 +1,59 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18;
+  text-align: center;
+}
+
+.title {
+  margin-top: 15%;
+}
+
+.clock {
+  margin: 20px auto 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 22px rgba(0, 0, 0, 0.2);
+  max-width: 320px;
+}
+
+.clock button {
+  padding: 5px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #ffff;
+  font-size: 18px;
+  border: 1px solid transparent;
+}
+
+.clock__time {
+  padding: 0 10px;
+}
+
+.clock__btnStart {
+  background: #5cb85c;
+  border-color: #4cae4c;
+}
+.clock__btnStart:hover {
+  background: #449d44;
+  border-color: #398439;
+}
+.clock__btnPause {
+  background: #b85c5c;
+  border-color: #8b2222;
+}
+.clock__btnPause:hover {
+  background: #5a1d1d;
+  border-color: #571818;
+}
+.clock__btnStop {
+  background: #f19a9a;
+  border-color: #8a5a5a;
+}
+
+.clock__btnStop:hover {
+  background: #5c0e0e;
+  border-color: #4e2626;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyDyR46XSFctnpHA42JgqB1TL8fZ3zdSvNs",
+        authDomain: "chat-ci-d12-bfd10.firebaseapp.com",
+        projectId: "chat-ci-d12-bfd10",
+        storageBucket: "chat-ci-d12-bfd10.appspot.com",
+        messagingSenderId: "850033713438",
+        appId: "1:850033713438:web:0dfb87b7b33b0a1260690f",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
